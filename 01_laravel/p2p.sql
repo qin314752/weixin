@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : p2p
+Source Server         : lamp
 Source Server Version : 50714
 Source Host           : localhost:3306
 Source Database       : p2p
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2016-11-25 17:25:56
+Date: 2016-11-29 15:44:43
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -37,7 +37,7 @@ CREATE TABLE `p2p_configs` (
 -- ----------------------------
 -- Records of p2p_configs
 -- ----------------------------
-INSERT INTO `p2p_configs` VALUES ('1', '中皇太发（北京）投资基金管理有限公司', '中皇太发', '中皇太发', '京ICP证232302308023023023234', '丰台科技园盈坤世纪C座5层', '400-900-472392', 'hengyuanjiashun@23236.com', '/uploads/a3ac7b7e065d135dc7ab2bb6dd4c3ab8.png', null, null);
+INSERT INTO `p2p_configs` VALUES ('1', '中皇太发（北京）投资基金管理有限公司1', '中皇太发2', '中皇太发3', '京ICP证232302308023023023234', '丰台科技园盈坤世纪C座5层2', '400-900-472392', 'zhonghuangtaifa@126.com', '/uploads/default/7bbda063696f2c144fa1d803cc164ce3.png', '/uploads/default/weixin.png', '/uploads/default/weibo_pic (1).png');
 
 -- ----------------------------
 -- Table structure for p2p_flink
