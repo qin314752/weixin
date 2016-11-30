@@ -1,0 +1,33 @@
+﻿body,h1,h2,h3,h4,ul,li,ol,p,a,form,fieldset,figure{
+    margin:0px;
+    padding:0px;
+	list-style:none;
+	text-decoration:none;
+}
+a{text-decoration:none; color:#FFFFFF;}
+/*清除标签默认内外间距*/
+body{
+	-background-color:#fff;
+	font-family: "Helvetica Neue",Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+/*定义背景颜色和所用字体，从前到后顺序查找*/
+img{
+	max-width:100%;
+	border:0px;
+	display:block;
+}
+/*清除图片默认样式。最大宽和边框*/
+div,figure,img,input,button{
+    box-sizing:border-box;
+}
+/*"容错功能"，可以让两个超出范围的元素并排显示*/
+.none{
+    display:none;
+}
+.sm-visible{
+    display:none;
+}
+.fl{float: left;}
+.fr{float: right;}
+
+
